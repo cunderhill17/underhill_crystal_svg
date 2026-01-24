@@ -18,3 +18,26 @@
     margin: 10px 0px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.07);
 }
+
+/* Styling for Spacing Utility Classes - Margins, Padding, Floats, or Positioning */
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.margin-bottom {
+    margin-bottom: 30px;
+}
+
+.p-spacing {
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+p:first-of-type.p-spacing {
+    margin-top: 35px;
+}
+
+p:last-of-type.p-spacing {
+    margin-bottom: 35px;
+}
