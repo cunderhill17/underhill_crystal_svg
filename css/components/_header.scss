@@ -1,0 +1,32 @@
+header {
+    nav {
+        display: none;
+        align-items: center;
+        justify-content: center;
+
+        * {
+            padding-left: 15px;
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+
+            li {
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            display: flex;
+        }
+    }
+
+    .menu {
+        @media screen and (min-width: 1200px) {
+            display: none;
+        }
+    }
+}

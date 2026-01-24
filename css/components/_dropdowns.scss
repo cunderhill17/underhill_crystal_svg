@@ -1,0 +1,13 @@
+details {
+    margin-bottom: 20px;
+
+    summary {
+        padding: 20px;
+        background-color: #D7D7D7;
+        color: #800020;
+    }
+}
+
+details:last-of-type {
+    margin-bottom: 50px;
+}
