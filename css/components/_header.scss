@@ -1,4 +1,13 @@
 header {
+    background-color: #800020;
+    padding: 10px;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     nav {
         display: none;
         align-items: center;
@@ -15,6 +24,7 @@ header {
             li {
                 a {
                     text-decoration: none;
+                    color: #F5F1E8;
                 }
             }
         }
@@ -25,8 +35,26 @@ header {
     }
 
     .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        > img {
+            width: 50px;
+        }
+
         @media screen and (min-width: 1200px) {
             display: none;
+        }
+    }
+
+    .cart {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        > img {
+            width: 50px;
         }
     }
 }
