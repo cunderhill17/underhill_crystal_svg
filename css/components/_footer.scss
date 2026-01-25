@@ -5,6 +5,12 @@ footer {
 
     nav {
 
+        display: none;
+
+        @media screen and (min-width: 768px) {
+            display: block;
+        }
+
         ul {
             list-style-type: none;
             height: 100%;
@@ -26,6 +32,11 @@ footer {
                 align-items: center;
             }
         }
-
     }
+
+    .legal-text {
+        padding: 20px;
+        text-align: center;
+    }
+
 }
