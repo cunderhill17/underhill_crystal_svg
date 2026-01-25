@@ -7,6 +7,10 @@
   display: none;
 }
 
+body {
+  background-color: #F5F1E8;
+}
+
 /*Box Class is Used to layout elements in grid - would be removed once content is added*/
 .box {
   display: flex;
@@ -91,6 +95,15 @@ footer .legal-text {
   text-align: center;
 }
 
+header {
+  background-color: #800020;
+  padding: 10px;
+}
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 header nav {
   display: none;
   align-items: center;
@@ -105,16 +118,43 @@ header nav ul {
 }
 header nav ul li a {
   text-decoration: none;
+  color: #F5F1E8;
 }
 @media screen and (min-width: 1200px) {
   header nav {
     display: flex;
   }
 }
+header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .menu > img {
+  width: 50px;
+}
 @media screen and (min-width: 1200px) {
   header .menu {
     display: none;
   }
+}
+header .cart {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header .cart > img {
+  width: 50px;
+}
+
+div.icon-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+svg#Layer_2 {
+  max-width: 150px;
+  margin: 25px;
 }
 
 /*Styling for the Grid System */
