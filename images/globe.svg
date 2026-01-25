@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 623 623">
+  <defs>
+    <style>
+      .cls-1-7 {
+        fill: none;
+        stroke: #800020;
+        stroke-miterlimit: 10;
+        stroke-width: 14.13px;
+      }
+    </style>
+  </defs>
+  <g id="Globe">
+    <circle class="cls-1-7" cx="311.5" cy="311.5" r="304.44"/>
+    <ellipse class="cls-1-7" cx="311.5" cy="311.5" rx="229.68" ry="304.44"/>
+    <ellipse class="cls-1-7" cx="311.5" cy="311.5" rx="110.64" ry="304.44"/>
+    <line class="cls-1-7" x1="7.06" y1="311.5" x2="615.94" y2="311.5"/>
+    <path class="cls-1-7" d="M57.61,143.5s229.51,146.86,507.81,0"/>
+    <path class="cls-1-7" d="M57.61,479.61s229.51-146.86,507.81,0"/>
+  </g>
+</svg>
