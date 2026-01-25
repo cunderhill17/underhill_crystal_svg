@@ -59,6 +59,14 @@ footer {
   background-color: #800020;
   color: #F5F1E8;
 }
+footer nav {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  footer nav {
+    display: block;
+  }
+}
 footer nav ul {
   list-style-type: none;
   height: 100%;
@@ -77,6 +85,10 @@ footer nav ul li a {
     justify-content: space-around;
     align-items: center;
   }
+}
+footer .legal-text {
+  padding: 20px;
+  text-align: center;
 }
 
 header nav {
