@@ -9,6 +9,7 @@
 
 body {
     background-color: #F5F1E8;
+    font-family: "Albert Sans", sans-serif;;
 }
 
 /*Box Class is Used to layout elements in grid - would be removed once content is added*/
@@ -44,4 +45,12 @@ p:first-of-type.p-spacing {
 
 p:last-of-type.p-spacing {
     margin-bottom: 35px;
+}
+
+/* Styling for Fonts */
+
+.main-heading {
+    font-size: 55px;
+    font-family: "GFS Didot", serif;
+    color: #800020;
 }

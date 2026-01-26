@@ -9,6 +9,7 @@
 
 body {
   background-color: #F5F1E8;
+  font-family: "Albert Sans", sans-serif;
 }
 
 /*Box Class is Used to layout elements in grid - would be removed once content is added*/
@@ -43,6 +44,13 @@ p:first-of-type.p-spacing {
 
 p:last-of-type.p-spacing {
   margin-bottom: 35px;
+}
+
+/* Styling for Fonts */
+.main-heading {
+  font-size: 55px;
+  font-family: "GFS Didot", serif;
+  color: #800020;
 }
 
 details {
@@ -94,10 +102,31 @@ footer .legal-text {
   padding: 20px;
   text-align: center;
 }
+footer .footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .footer-logo > * {
+  padding-bottom: 15px;
+  text-align: center;
+}
+footer .footer-logo img {
+  width: 75%;
+}
+footer .media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .media-icons img {
+  max-width: 40px;
+  margin: 10px;
+}
 
 header {
   background-color: #800020;
-  padding: 10px;
+  padding: 20px;
 }
 header .logo {
   display: flex;
@@ -131,7 +160,7 @@ header .menu {
   align-items: center;
 }
 header .menu > img {
-  width: 50px;
+  width: 40px;
 }
 @media screen and (min-width: 1200px) {
   header .menu {
@@ -144,7 +173,7 @@ header .cart {
   align-items: center;
 }
 header .cart > img {
-  width: 50px;
+  width: 40px;
 }
 
 div.icon-wrap {

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 377.46 377.46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #F5F1E8;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        fill: #F5F1E8
+      }
+    </style>
+  </defs>
+  <g id="Facebook_Icon" data-name="Facebook Icon">
+    <circle class="cls-1" cx="188.73" cy="188.73" r="183.73"/>
+    <path class="cls-2" d="M243.65,107.09l-.6-33.62h-48.09s-33.53,1.36-34.94,35.7-.77,38.81-.77,38.81h-24.13v39.7h24v116.3h47.62v-116.3h32.68l4.98-40.21h-37.53l-.13-24.51s-1.4-9.96,11.62-9.83,25.36,0,25.36,0l-.09-6.04Z"/>
+  </g>
+</svg>
