@@ -1,5 +1,5 @@
-# Assignment 2: Responsive Scaffold
-This repository is for Homework 1 in the Multimedia Authoring 2 Course in IDP3 @ Fanshawe in which we had to create at least six SVG icons based on the brand we've selected for our FIP. The assignment also requires that the SVG's have some sort of triggered animation as well as having their ID's logged in the console through a JS click event.
+# Homework 1: SVG Icons
+This repository is for Homework 1 in the Multimedia Authoring 2 Course in IDP3 @ Fanshawe in which we had to create at least six SVG icons based on the brand we've selected for our FIP. The assignment also requires that the SVG's have some sort of triggered animation as well as having their ID's logged in the console through a JavaScript click event.
 
 ## Installation
 No installation required. Simply download the zip file and extract.
