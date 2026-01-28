@@ -178,13 +178,144 @@ header .cart > img {
 
 div.icon-wrap {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 div.icon-wrap svg {
+  overflow: visible;
   max-width: 150px;
   margin: 25px;
 }
+div.icon-wrap svg:hover {
+  cursor: pointer;
+}
 
+/* Cherry leaves spin on hover */
+#Cherry_Fruit:hover #Left_Leaf {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: spin-clock 2.5s infinite ease-in-out;
+}
+
+#Cherry_Fruit:hover #Right_Leaf {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: spin-counter-clock 2.5s infinite ease-in-out;
+}
+
+@keyframes spin-clock {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin-counter-clock {
+  to {
+    transform: rotate(-360deg);
+  }
+}
+/* Orange Slice Slivers Change Colour Hover */
+#Orange-Fruit:hover .cls-2-2 {
+  animation: colour 2.5s ease-in-out infinite forwards;
+}
+
+@keyframes colour {
+  0% {
+    fill: #d96b5f;
+  }
+  100% {
+    fill: #ffb347;
+  }
+}
+#Orange-Fruit:hover .sliver-1 {
+  animation-delay: 0s;
+}
+
+#Orange-Fruit:hover .sliver-2 {
+  animation-delay: 0.15s;
+}
+
+#Orange-Fruit:hover .sliver-3 {
+  animation-delay: 0.3s;
+}
+
+#Orange-Fruit:hover .sliver-4 {
+  animation-delay: 0.45s;
+}
+
+#Orange-Fruit:hover .sliver-5 {
+  animation-delay: 0.6s;
+}
+
+#Orange-Fruit:hover .sliver-6 {
+  animation-delay: 0.75s;
+}
+
+/* Pomegranates shake on hover */
+#Pomegranate:hover #Pomegranate-Top, #Pomegranate:hover #Pomegranate-Bottom {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: shake 2.5s ease-in-out infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-25deg);
+  }
+  40% {
+    transform: rotate(25deg);
+  }
+  60% {
+    transform: rotate(-25deg);
+  }
+  80% {
+    transform: rotate(25deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* Adding Drop Shadows to the utlity icons */
+#Gear, #Hamburger-Menu, #Shopping-Cart, #Search {
+  transition: filter 0.4s ease;
+}
+
+#Gear:hover, #Hamburger-Menu:hover, #Shopping-Cart:hover, #Search:hover {
+  filter: drop-shadow(5px 5px 1px #B8B1A9);
+}
+
+/* Zoom in and out to the identification icons */
+#Globe:hover, #Maple-Leaf:hover {
+  animation: iconZoomIn 2.5s ease-in-out;
+}
+
+@keyframes iconZoomIn {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#Map:hover {
+  animation: iconZoomOut 2.5s ease-in-out;
+}
+
+@keyframes iconZoomOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /*Styling for the Grid System */
 .grid-con {
   display: grid;
